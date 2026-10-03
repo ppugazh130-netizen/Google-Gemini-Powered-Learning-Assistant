@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGenie - AI Learning Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">🎓 EduGenie</div>
+        <div class="header-text">AI Learning Assistant</div>
+    </header>
+
+    <main class="container">
+        <section class="welcome">
+            <h1>Welcome to EduGenie</h1>
+            <p>Your AI-powered learning assistant</p>
+        </section>
+
+        <section class="card">
+            <label for="question">Ask your question</label>
+            <textarea id="question" placeholder="Type your question here..."></textarea>
+
+            <div class="buttons">
+                <button id="askButton">Ask EduGenie</button>
+                <button id="clearButton" class="secondary">Clear</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>EduGenie Response</h2>
+            <div id="response" class="response">
+                <p class="placeholder">Your answer will appear here...</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature"><span>🤖</span><h3>AI Powered</h3><p>Get intelligent answers using Google Gemini AI.</p></div>
+            <div class="feature"><span>📚</span><h3>Learn Easily</h3><p>Understand difficult concepts with simple explanations.</p></div>
+            <div class="feature"><span>💻</span><h3>Coding Help</h3><p>Get programming examples and step-by-step explanations.</p></div>
+        </section>
+    </main>
+
+    <footer>© 2026 EduGenie | AI Learning Assistant</footer>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
